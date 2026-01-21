@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "FPG0Ew+0uC8=",
+  "dgSpecHash": "dlbIsH/JXoo=",
   "success": true,
   "projectFilePath": "/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/RPSLSApi.csproj",
   "expectedPackageFiles": [
     "/Users/brandonestrada/.nuget/packages/microsoft.aspnetcore.openapi/9.0.9/microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
-    "/Users/brandonestrada/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+    "/Users/brandonestrada/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
+    "/Users/brandonestrada/.nuget/packages/swashbuckle.aspnetcore/9.0.0/swashbuckle.aspnetcore.9.0.0.nupkg.sha512",
+    "/Users/brandonestrada/.nuget/packages/swashbuckle.aspnetcore.swagger/9.0.0/swashbuckle.aspnetcore.swagger.9.0.0.nupkg.sha512",
+    "/Users/brandonestrada/.nuget/packages/swashbuckle.aspnetcore.swaggergen/9.0.0/swashbuckle.aspnetcore.swaggergen.9.0.0.nupkg.sha512",
+    "/Users/brandonestrada/.nuget/packages/swashbuckle.aspnetcore.swaggerui/9.0.0/swashbuckle.aspnetcore.swaggerui.9.0.0.nupkg.sha512"
   ],
   "logs": [
     {
