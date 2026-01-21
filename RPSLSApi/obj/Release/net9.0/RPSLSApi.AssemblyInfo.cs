@@ -11,9 +11,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPSLSApi")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+417b60daf32b9035ed0e83f2cba7b118c0ae2544")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81d081a7699516803f7f91b921e70867600d0207")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPSLSApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPSLSApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

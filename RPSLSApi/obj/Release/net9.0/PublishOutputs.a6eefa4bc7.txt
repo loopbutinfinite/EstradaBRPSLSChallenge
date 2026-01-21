@@ -1,0 +1,12 @@
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/RPSLSApi
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/appsettings.Development.json
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/appsettings.json
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/RPSLSApi.dll
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/RPSLSApi.deps.json
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/RPSLSApi.runtimeconfig.json
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/RPSLSApi.pdb
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/Microsoft.AspNetCore.OpenApi.dll
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/Microsoft.OpenApi.dll
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/bin/Release/net9.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
