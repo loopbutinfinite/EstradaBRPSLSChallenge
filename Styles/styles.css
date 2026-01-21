@@ -1,0 +1,77 @@
+body {
+    background-color: #FEFAE0;
+}
+
+.gameRulesHeader {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #BC6C25;
+    font-size: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.winConditionsSubheader {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #BC6C25;
+    font-size: 52px;
+}
+
+.gameRulesText {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.buttonRestylized {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #606C38;
+    color: #FEFAE0;
+    border-radius: 20;
+    border: 2px solid #283618;
+    font-size: 32px;
+}
+
+.imgRestylized {
+    border-radius: 20px;
+    width: 700px;
+    height: 450px;
+}
+
+.gameChoiceImgsStylized {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+.gameMainPageHeader {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72px;
+    color: #BC6C25;
+}
+.gameChoiceButton{
+    background-color: #DDA15E;
+    border: 2px solid #BC6C25;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+.gameRulesButtonRestylized {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #606C38;
+    color: #FEFAE0;
+    border-radius: 20;
+    border: 2px solid #283618;
+    font-size: 32px;
+}
