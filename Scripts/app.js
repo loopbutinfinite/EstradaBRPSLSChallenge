@@ -14,7 +14,6 @@ const rockImg = document.getElementById("rockImg");
 const scissorsImg = document.getElementById("scissorsImg");
 const headerText = document.getElementById("headerText");
 
-
 const fetchAPIUrl = async (userChoice) => {
     const response = await fetch(`${API_Base}/RPSLS/RPSLSGame/${userChoice}`);
     const data = await response.text();
@@ -22,44 +21,34 @@ const fetchAPIUrl = async (userChoice) => {
     return data;
 }
 
-// const removeIconsandButtons = () => {
-//     lizardImg.style.display = "none";
-//     lizardButton.style.display = "none";
-//     rockImg.style.display = "none";
-//     rockButton.style.display = "none";
-//     paperImg.style.display = "none";
-//     paperButton.style.display = "none";
-//     spockImg.style.display = "none";
-//     spockButton.style.display = "none";
-//     scissorsImg.style.display = "none";
-//     scissorsButton.style.display = "none";
-// };
-
 paperButton.addEventListener("click", async () => {
-    // removeIconsandButtons();
     const paper = paperButton.dataset.message;
     const matchResult = await fetchAPIUrl(paper);
     headerText.style.fontSize = "46px";
     headerText.textContent = matchResult;
 });
+
 rockButton.addEventListener("click", async () => {
     const rock = rockButton.dataset.message;
     const matchResult = await fetchAPIUrl(rock);
     headerText.style.fontSize = "46px";
     headerText.textContent = matchResult;
 });
+
 lizardButton.addEventListener("click", async () => {
     const lizard = lizardButton.dataset.message;
     const matchResult = await fetchAPIUrl(lizard);
     headerText.style.fontSize = "46px";
     headerText.textContent = matchResult;
 });
+
 scissorsButton.addEventListener("click", async () => {
     const scissors = scissorsButton.dataset.message;
     const matchResult = await fetchAPIUrl(scissors);
     headerText.style.fontSize = "46px";
     headerText.textContent = matchResult;
 });
+
 spockButton.addEventListener("click", async () => {
     const spock = spockButton.dataset.message;
     const matchResult = await fetchAPIUrl(spock);

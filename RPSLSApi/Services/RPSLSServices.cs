@@ -9,21 +9,11 @@ namespace RPSLSApi.Services
     {
         public string RPSLSGame(string userChoice)
         {
-            // Scissors cuts Paper
-            // Paper covers Rock
-            // Rock crushes Lizard
-            // Lizard poisons Spock
-            // Spock smashes Scissors
-            // Scissors decapitates Lizard
-            // Lizard eats Paper
-            // Paper disproves Spock
-            // Spock vaporizes Rock
-            // Rock breaks Scissors
             Random random = new Random();
             int cpuChoice = random.Next(1, 6);
             switch (cpuChoice)
             {
-                case 1: //CPU Rock Choice
+                case 1:
                     {
                         if (userChoice == "paper")
                         {
@@ -46,7 +36,7 @@ namespace RPSLSApi.Services
                             return $"It's a Draw! You chose {userChoice} and the CPU also chose Rock";
                         }
                     }
-                case 2: //CPU Paper
+                case 2:
                     {
                         if (userChoice == "lizard")
                         {
@@ -69,7 +59,7 @@ namespace RPSLSApi.Services
                             return $"It's a Draw! You chose {userChoice} and the CPU also chose Paper";
                         }
                     }
-                case 3: //CPU Scissors
+                case 3:
                     {
                         if (userChoice == "rock")
                         {
@@ -92,7 +82,7 @@ namespace RPSLSApi.Services
                             return $"It's a Draw! You chose {userChoice} and the CPU also chose Scissors";
                         }
                     }
-                case 4: //CPU Lizard
+                case 4:
                     {
                         if (userChoice == "rock")
                         {
@@ -115,7 +105,7 @@ namespace RPSLSApi.Services
                             return $"It's a Draw! You chose {userChoice} and the CPU also chose Lizard";
                         }
                     }
-                case 5: //CPU Spock
+                case 5:
                     {
                         if (userChoice == "lizard")
                         {
