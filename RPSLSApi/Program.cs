@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 {
    options.AddPolicy("CorsRPSLSPolicy", policy =>
    {
-       policy.WithOrigins("https://agreeable-smoke-07b729c1e.1.azurestaticapps.net", "http://agreeable-smoke-07b729c1e.1.azurestaticapps.net").AllowAnyHeader().AllowAnyMethod();
+       policy.WithOrigins("https://agreeable-smoke-07b729c1e.1.azurestaticapps.net", "http://agreeable-smoke-07b729c1e.1.azurestaticapps.net","https://agreeable-smoke-07b729c1e.1.azurestaticapps.net/", "http://agreeable-smoke-07b729c1e.1.azurestaticapps.net/", "rpslsgamebe-ashvazctccbhg5c5.westus3-01.azurewebsites.net", "rpslsgamebe-ashvazctccbhg5c5.westus3-01.azurewebsites.net/").AllowAnyHeader().AllowAnyMethod();
    }); 
 });
 

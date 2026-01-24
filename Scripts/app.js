@@ -18,7 +18,6 @@ const subHeaderText = document.getElementById("subHeaderText");
 const fetchAPIUrl = async (userChoice) => {
     const response = await fetch(`${API_Base}/RPSLS/RPSLSGame/${userChoice}`);
     const data = await response.text();
-    console.log(data);
     return data;
 };
 
