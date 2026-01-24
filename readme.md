@@ -1,9 +1,9 @@
 ### Brandon Estrada
 
-### January 21, 2026
+### January 23, 2026
 
-### Rock, Paper, Scissors, Lizard, Spock Game API Challenge
+### Rock, Paper, Scissors, Lizard, Spock Game API Project
 
-### Description: Made an API that replicates the Rock, Paper, Scissors, Lizard, Spock game where the user makes a choice from the 5 options and the computer at random, makes their choice. Following the rules of the game, the API returns an endpoint back to the user, returning back to them the decision they chose, along with the choice that the CPU made and whether the user won, lost, or tied with against the CPU. The API is also hosted on Microsoft Azure.
+### Description: Made a full stack project that replicates the Rock, Paper, Scissors, Lizard, Spock Game. It consists of 4 modes; Player v. CPU, Player v. Player (1 round), Player v. Player (Best of 5), Player v. Player (Best of 5). The project utilizes an API to handle the backend for the Player v. CPU game mode where the endpoint received from the API is the result of who won. Frontend is handled utilizing HTML, CSS, and JavaScript to provide a User Interface for the game, where logic is done in JavaScript for the game modes that are tied to HTML elements.
 
-### Peer Review (Name Here) - Carlos Lopez all the backend works well the issue is in the front end but its not required for this assignment
+### Peer Review (Name Here) -
