@@ -1,4 +1,4 @@
-const API_Base = "https://rpslsgamebe-ashvazctccbhg5c5.westus3-01.azurewebsites.net/";
+const API_Base = "https://rpslsgamebe-ashvazctccbhg5c5.westus3-01.azurewebsites.net";
 
 const backToGamePageButton = document.getElementById("backToGamePageButton");
 const gameRulesPageButton = document.getElementById("gameRulesPageButton");

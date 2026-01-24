@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy", policy =>
     {
-        policy.WithOrigins("http://localhost:5225","https://localhost:7080", "http://127.0.0.1:5500/index.html", "http://127.0.0.1:5500", "http://127.0.0.1:5225", "http://127.0.0.1:5501", "http://127.0.0.1:5501/index.html", "http://127.0.0.1:5501").AllowAnyHeader().AllowAnyMethod();
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyOrigin();
     });
 });
 
@@ -29,9 +29,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
 app.UseCors("CorsPolicy");
+
+app.UseAuthorization();
 
 app.MapControllers();
 
