@@ -16,17 +16,31 @@ namespace RPSLSApi.Controllers
         {
             _RPSLSServices = rPSLSServices;
         }
-        [HttpGet]
-        [Route("SayHello")]
-        public string SayHello()
-        {
-            return "Hello!";
-        }
+
         [HttpGet]
         [Route("RPSLSGame/{userChoice}")]
         public string RPSLSGame(string userChoice)
         {
-            return _RPSLSServices.RPSLSGame(userChoice);
+            return _RPSLSServices.RPSLSGamevCPU(userChoice);
+        }
+        [HttpGet]
+        [Route("RPSLSPvP1Round/{player1}/{player2}")]
+        public string RPSLSPVP1Round(string player1, string player2)
+        {
+            return _RPSLSServices.RPSLSPlayerVPlayer1Round(player1, player2);
+        }
+        [HttpGet]
+        [Route("RPSLSPvPBof5/{player1}/{player2}")]
+        public string RPSLSPvPBof5(string player1, string player2)
+        {
+            return _RPSLSServices.RPSLSPvPBof5(player1, player2);
+        }
+
+        [HttpGet]
+        [Route("RPSLSPvPBof7/{player1}/{player2}")]
+        public string RPSLSPvPBof7(string player1, string player2)
+        {
+            return _RPSLSServices.RPSLSPvPBof7(player1, player2);
         }
     }
 }

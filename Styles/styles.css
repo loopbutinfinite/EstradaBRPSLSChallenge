@@ -75,3 +75,24 @@ body {
     border: 2px solid #283618;
     font-size: 32px;
 }
+.scoreTextStyled{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: bold;
+    color: #283618;
+    font-size: 36px;
+}
+.gameMainPageSubHeader {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 52px;
+    color: #606C38;
+}
+.promptUserToPlayAgainTextBox{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 52px;
+    color: #606C38;
+}

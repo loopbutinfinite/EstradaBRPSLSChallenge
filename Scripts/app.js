@@ -1,4 +1,4 @@
-const API_Base = "https://rpslsgamebe-ashvazctccbhg5c5.westus3-01.azurewebsites.net";
+const API_Base = "https://rpslsgamebe-ashvazctccbhg5c5.westus3-01.azurewebsites.net/";
 
 const backToGamePageButton = document.getElementById("backToGamePageButton");
 const gameRulesPageButton = document.getElementById("gameRulesPageButton");
@@ -13,19 +13,22 @@ const paperImg = document.getElementById("paperImg");
 const rockImg = document.getElementById("rockImg");
 const scissorsImg = document.getElementById("scissorsImg");
 const headerText = document.getElementById("headerText");
+const subHeaderText = document.getElementById("subHeaderText");
 
 const fetchAPIUrl = async (userChoice) => {
     const response = await fetch(`${API_Base}/RPSLS/RPSLSGame/${userChoice}`);
     const data = await response.text();
     console.log(data);
     return data;
-}
+};
 
 paperButton.addEventListener("click", async () => {
     const paper = paperButton.dataset.message;
     const matchResult = await fetchAPIUrl(paper);
     headerText.style.fontSize = "46px";
     headerText.textContent = matchResult;
+    subHeaderText.textContent = "";
+    subHeaderText.textContent = "Make another choice to play again!"
 });
 
 rockButton.addEventListener("click", async () => {
@@ -33,6 +36,8 @@ rockButton.addEventListener("click", async () => {
     const matchResult = await fetchAPIUrl(rock);
     headerText.style.fontSize = "46px";
     headerText.textContent = matchResult;
+    subHeaderText.textContent = "";
+    subHeaderText.textContent = "Make another choice to play again!"
 });
 
 lizardButton.addEventListener("click", async () => {
@@ -40,6 +45,8 @@ lizardButton.addEventListener("click", async () => {
     const matchResult = await fetchAPIUrl(lizard);
     headerText.style.fontSize = "46px";
     headerText.textContent = matchResult;
+    subHeaderText.textContent = "";
+    subHeaderText.textContent = "Make another choice to play again!"
 });
 
 scissorsButton.addEventListener("click", async () => {
@@ -47,6 +54,8 @@ scissorsButton.addEventListener("click", async () => {
     const matchResult = await fetchAPIUrl(scissors);
     headerText.style.fontSize = "46px";
     headerText.textContent = matchResult;
+    subHeaderText.textContent = "";
+    subHeaderText.textContent = "Make another choice to play again!"
 });
 
 spockButton.addEventListener("click", async () => {
@@ -54,4 +63,6 @@ spockButton.addEventListener("click", async () => {
     const matchResult = await fetchAPIUrl(spock);
     headerText.style.fontSize = "46px";
     headerText.textContent = matchResult;
+    subHeaderText.textContent = "";
+    subHeaderText.textContent = "Make another choice to play again!"
 });

@@ -211,11 +211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/RPSLSApi.csproj",
+      "projectUniqueName": "/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSPrototypeChallenge/RPSLSApi/RPSLSApi.csproj",
       "projectName": "RPSLSApi",
-      "projectPath": "/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/RPSLSApi.csproj",
+      "projectPath": "/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSPrototypeChallenge/RPSLSApi/RPSLSApi.csproj",
       "packagesPath": "/Users/brandonestrada/.nuget/packages/",
-      "outputPath": "/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSChallenge/RPSLSApi/obj/",
+      "outputPath": "/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBRPSLSPrototypeChallenge/RPSLSApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/brandonestrada/.nuget/NuGet/NuGet.Config"

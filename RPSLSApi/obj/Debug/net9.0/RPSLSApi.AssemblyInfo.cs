@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPSLSApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29d6a7329a86dad413ff0c5840965715cdd15658")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f148b3a8b75d4ff2c96af48897591d7221f2d082")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPSLSApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPSLSApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
