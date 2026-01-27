@@ -129,7 +129,7 @@ namespace RPSLSApi.Services
                         }
                     }
                 default:
-                    return "";
+                    return "Invalid Input. Also make sure to type your reply in lowercase.";
             }
         }
         public string RPSLSPlayerVPlayer1Round(string player1, string player2)
