@@ -31,9 +31,13 @@ namespace RPSLSApi.Services
                         {
                             return $"You Lose, Try Again. You chose {userChoice} and the CPU chose Rock";
                         }
-                        else
+                        else if (userChoice == cpuChoice)
                         {
                             return $"It's a Draw! You chose {userChoice} and the CPU also chose Rock";
+                        }
+                        else
+                        {
+                            return "Invalid Input. Also make sure to type your reply in lowercase.";
                         }
                     }
                 case 2:
@@ -54,9 +58,13 @@ namespace RPSLSApi.Services
                         {
                             return $"You Lose, Try Again. You chose {userChoice} and the CPU chose Paper";
                         }
-                        else
+                        else if (userChoice == cpuChoice)
                         {
                             return $"It's a Draw! You chose {userChoice} and the CPU also chose Paper";
+                        }
+                        else
+                        {
+                            return "Invalid Input. Also make sure to type your reply in lowercase.";
                         }
                     }
                 case 3:
@@ -77,9 +85,13 @@ namespace RPSLSApi.Services
                         {
                             return $"You Lose, Try Again. You chose {userChoice} and the CPU chose Scissors";
                         }
-                        else
+                        else if (userChoice == cpuChoice)
                         {
                             return $"It's a Draw! You chose {userChoice} and the CPU also chose Scissors";
+                        }
+                        else
+                        {
+                            return "Invalid Input. Also make sure to type your reply in lowercase.";
                         }
                     }
                 case 4:
@@ -100,9 +112,13 @@ namespace RPSLSApi.Services
                         {
                             return $"You Lose, Try Again. You chose {userChoice} and the CPU chose Lizard";
                         }
-                        else
+                        else if (userChoice == cpuChoice)
                         {
                             return $"It's a Draw! You chose {userChoice} and the CPU also chose Lizard";
+                        }
+                        else
+                        {
+                            return "Invalid Input. Also make sure to type your reply in lowercase.";
                         }
                     }
                 case 5:
@@ -123,9 +139,13 @@ namespace RPSLSApi.Services
                         {
                             return $"You Lose, Try Again. You chose {userChoice} and the CPU chose Spock";
                         }
-                        else
+                        else if (userChoice == cpuChoice)
                         {
                             return $"It's a Draw! You chose {userChoice} and the CPU also chose Spock";
+                        }
+                        else
+                        {
+                            return "Invalid Input. Also make sure to type your reply in lowercase.";
                         }
                     }
                 default:
