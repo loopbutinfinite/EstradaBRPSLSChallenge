@@ -47,7 +47,7 @@ function RecordPlayersChoice(move) {
     if (isPlayer1Turn === true) {
         player1Choice = move;
         isPlayer1Turn = false;
-        headerText.style.fontSize = "72px";
+        headerText.style.fontSize = "52px";
         headerText.textContent = "Player 2, what's your move?";
     } else {
         player2Choice = move;
@@ -57,6 +57,7 @@ function RecordPlayersChoice(move) {
 
 function ComparePlayerChoices() {
     if (player1Choice === player2Choice) {
+        headerText.style.fontSize = "40px";
         headerText.textContent = `Draw! Both players picked ${player1Choice}`;
     }
     else if ((player1Choice === "rock" && (player2Choice === "scissors" || player2Choice === "lizard")) ||
@@ -66,10 +67,12 @@ function ComparePlayerChoices() {
         (player1Choice === "spock" && (player2Choice === "scissors" || player2Choice === "rock"))) 
     {
         player1Score++;
+        headerText.style.fontSize = "32px";
         headerText.textContent = `Player 1 wins round! Player 1's ${player1Choice} beats ${player2Choice}`;
     } 
     else {
         player2Score++;
+        headerText.style.fontSize = "32px";
         headerText.textContent = `Player 2 wins round! Player 2's ${player2Choice} beats  ${player1Choice}`;
     }
 
@@ -79,9 +82,11 @@ function ComparePlayerChoices() {
 
 function DisplayWinner() {
     if (player1Score === roundsNeededToWin) {
+        headerText.style.fontSize = "40px";
         headerText.textContent = "Congratulations Player 1 You Won!!!";
         promptUserToPlayAgainTextBox.textContent = "Click one of the game buttons to play again!";
     } else if (player2Score === roundsNeededToWin) {
+        headerText.style.fontSize = "40px";
         headerText.textContent = "Congratulations Player 2 You Won!!!";
         promptUserToPlayAgainTextBox.textContent = "Click one of the game buttons to play again!";
     } else {
@@ -93,7 +98,7 @@ function ResetVariables() {
     player1Choice = "";
     player2Choice = "";
     isPlayer1Turn = true;
-    headerText.style.fontSize = "72px";
+    headerText.style.fontSize = "52px";
     headerText.textContent = "Player 1, what's your move?";
 }
 
