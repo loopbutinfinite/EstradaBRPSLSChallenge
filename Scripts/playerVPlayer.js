@@ -67,12 +67,12 @@ function ComparePlayerChoices() {
         (player1Choice === "spock" && (player2Choice === "scissors" || player2Choice === "rock"))) 
     {
         player1Score++;
-        headerText.style.fontSize = "32px";
+        headerText.style.fontSize = "44px";
         headerText.textContent = `Player 1 wins round! Player 1's ${player1Choice} beats ${player2Choice}`;
     } 
     else {
         player2Score++;
-        headerText.style.fontSize = "32px";
+        headerText.style.fontSize = "44px";
         headerText.textContent = `Player 2 wins round! Player 2's ${player2Choice} beats  ${player1Choice}`;
     }
 
@@ -82,11 +82,11 @@ function ComparePlayerChoices() {
 
 function DisplayWinner() {
     if (player1Score === roundsNeededToWin) {
-        headerText.style.fontSize = "40px";
+        headerText.style.fontSize = "62px";
         headerText.textContent = "Congratulations Player 1 You Won!!!";
         promptUserToPlayAgainTextBox.textContent = "Click one of the game buttons to play again!";
     } else if (player2Score === roundsNeededToWin) {
-        headerText.style.fontSize = "40px";
+        headerText.style.fontSize = "62px";
         headerText.textContent = "Congratulations Player 2 You Won!!!";
         promptUserToPlayAgainTextBox.textContent = "Click one of the game buttons to play again!";
     } else {
